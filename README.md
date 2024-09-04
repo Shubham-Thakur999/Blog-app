@@ -36,11 +36,11 @@ This will start the application on http://localhost:3000.
 
 
 Animations and Transitions
-The application uses a combination of Tailwind CSS and Framer Motion to achieve smooth animations and transitions:
+The application uses Tailwind CSS to achieve smooth animations and transitions:
 
 Card Hover Animation: Each blog card uses a hover effect where the card slightly enlarges (transform: scale(1.05)), and the shadow becomes more prominent. This effect is achieved using Tailwind's utility classes along with a transition-transform class to smooth the animation.
 
-Fade-In Animation: When the page first loads, the blog cards fade in with a slight upward motion. This effect is implemented using Framer Motion's initial, animate, and transition properties. The fade-in effect provides a polished appearance as the content loads.
+Fade-In Animation: When the page first loads, the blog cards fade in with a slight upward motion. The fade-in effect provides a polished appearance as the content loads.
 
 Responsive Design: The layout uses Tailwind CSS's responsive grid system, ensuring that the blog cards look great on both mobile and desktop devices. The grid automatically adjusts the number of columns based on the screen size.
 
